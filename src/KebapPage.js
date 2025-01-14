@@ -1,7 +1,7 @@
 import React from "react";
 import { List, Card } from "antd";
 import "./KebapPage.css";
-import cigersis from "./img/ciğerşiş.jpg";
+import cigersis from "./img/cigersis.jpg";
 
 const kebabs = [
   { name: "Ciğer Şiş", weight: "170 gr", price: "340 TL", img: cigersis },
