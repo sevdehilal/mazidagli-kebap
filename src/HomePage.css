@@ -1,0 +1,83 @@
+.home-page {
+    padding: 16px;
+    background-color: #f5f5f5;
+  }
+  
+  .ant-card {
+    text-align: center;
+  }
+  
+  .ant-card-meta-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  .app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 16px;
+    background-color: #f5222d;
+    color: white;
+    height: 65px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .menu-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Varsayılan kart stili */
+.ant-card {
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .ant-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .ant-card-meta-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* XS ve Small cihazlar için */
+  @media (max-width: 576px) {
+    .ant-card {
+      margin: 8px 0; /* Kartlar arasında daha küçük boşluk */
+    }
+  
+    .ant-card img {
+      height: 150px; /* Görsel yüksekliği küçültüldü */
+    }
+  
+    .ant-card-meta-title {
+      font-size: 16px; /* Yazı boyutu küçültüldü */
+    }
+  
+    .app-bar {
+      height: 50px;
+      padding: 0 12px;
+    }
+  
+    .logo {
+      font-size: 16px;
+    }
+  
+    .menu-button {
+      font-size: 18px;
+    }
+  }
