@@ -1,0 +1,49 @@
+.kebap-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .kebap-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .kebap-info {
+    flex: 1;
+    
+  }
+  
+  .kebap-price {
+    font-weight: bold;
+    color: #ff4d4f;
+  }
+  
+  /* Small ve XS cihazlar için medya sorguları */
+  @media (max-width: 576px) {
+    .kebap-card {
+       /* Resmi daha küçük yap */
+      height: 80px;
+      flex-direction: row; /* İçerikleri yatay hizala */
+      align-items: center; /* Ortadan hizala */
+    }
+  
+    .kebap-img {
+      width: 150px; /* Resmi daha küçük yap */
+      height: 80px;
+      /* Resim ile içerik arasında boşluk */
+    }
+  
+    .kebap-info {
+      margin-left: 8px; /* Daha küçük bir margin */
+      font-size: 14px; /* Yazı boyutunu küçült */
+    }
+  
+    .kebap-price {
+      font-size: 14px; /* Fiyatın boyutunu küçült */
+      margin-left: auto; /* Fiyatı sağa yasla */
+    }
+  }
+  
