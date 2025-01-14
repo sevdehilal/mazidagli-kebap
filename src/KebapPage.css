@@ -1,0 +1,27 @@
+.kebap-page {
+    padding: 20px;
+  }
+  
+  .kebap-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .kebap-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .kebap-info {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .kebap-price {
+    font-weight: bold;
+    color: #ff4d4f;
+  }
+  
