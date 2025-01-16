@@ -24,14 +24,14 @@
   /* Small ve XS cihazlar için medya sorguları */
   @media (max-width: 576px) {
     .kebap-card {
-      height: 100px; /* Kart yüksekliği */
+      height: 85px !important ; /* Kart yüksekliği */
       flex-direction: row; /* İçerikleri yatay hizala */
       align-items: center; /* Ortadan hizala */
     }
   
     .kebap-img {
-      width: 130px; /* Daha küçük genişlik */
-      height: 80px; /* Daha küçük yükseklik */
+      width: 120px; /* Daha küçük genişlik */
+      height: 100px !important ; /* Daha küçük yükseklik */
       object-fit: cover; /* Görüntüyü kapsayıcıya göre kırparak alanı doldur */
       border-radius: 8px; /* Köşeleri yuvarla */
       overflow: hidden; /* Taşmaları engelle */
@@ -39,7 +39,7 @@
   
     .kebap-info {
       margin-left: 10px; /* Daha küçük bir margin */
-      font-size: 8px; /* Yazı boyutunu küçült */
+      font-size: 10px; /* Yazı boyutunu küçült */
     }
   
     .kebap-price {
