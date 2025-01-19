@@ -14,7 +14,7 @@ import litrelikColaAyranImg from "./img/cocacola1l.jpg";
 import sodaImg from "./img/soda20cl.jpg";
 import kucukAyranImg from "./img/ayran18cl.jpg";
 import cocaCola2LtImg from "./img/cocacola2l.jpg";
-import salgamImg from "./img/şalgamsuyu30cl.jpg";
+import salgamImg from "./img/salgamsuyu30cl.jpg";
 import cola2_5LtImg from "./img/cocacola2.5l.jpg";
 
 // List of drinks with their prices, weights, and images
