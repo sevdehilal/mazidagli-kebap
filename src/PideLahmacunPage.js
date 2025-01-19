@@ -10,7 +10,7 @@ import kiymali from "./img/kiymalipidemazidagli.jpg";
 import kusbasili from "./img/kusbasikasarlimazidagli.jpg";
 import karisik from "./img/karisikpidemazidagli.jpg";
 import sucukluKasarlı from "./img/sucuklukasarlipidemazidagli.jpg";
-import kavurmali from "./img/kavurmalıkaşarlıpide.jpg";
+import kavurmali from "./img/kavurmalikasarlipide.jpg";
 import lahmacun from "./img/lahmacunmazidagli.jpg";
 import findikLahmacun from "./img/lahmacunmazidagli.jpg";
 import antepLahmacun from "./img/lahmacunmazidagli.jpg";
