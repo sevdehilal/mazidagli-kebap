@@ -2,29 +2,28 @@ import React from "react";
 import { List } from "antd";
 import "./KebapPage.css";
 import KebapCard from "./KebapCard"; // Yeni bileşeni içe aktarın
-import cigersis from "./img/cigersis.jpg";
-import beyti from "./img/beytikebapsarma.jpg";
+import cigersis from "./img/cigercigersismazidagli.jpg";
+import beyti from "./img/beytimazidagli.jpg";
 import patlicanlikebap from "./img/patlicanlikebap.jpg";
-import urfakebap from "./img/urfakebap.jpg";
-import adanakebap from "./img/adanakebap.jpg";
-import kuzusis from "./img/kuzusis.jpg";
-import tavuksis from "./img/tavuksis.jpg";
-import tavukpirzola from "./img/tavukpirzola.jpg";
+import urfakebap from "./img/urfakebapmazidagli.jpg";
+import adanakebap from "./img/adanakebapmazidagli.jpg";
+import kuzusis from "./img/cigersismazidagli.jpg";
+import tavuksis from "./img/tavuksismazidagli.jpg";
+import tavukpirzola from "./img/pirzolamazidagli.jpg";
 import tavukbiftek from "./img/tavukbiftek.jpg";
-import tavukkanat from "./img/tavukkanat.jpg";
-import karisikkebap from "./img/karisikkebap.jpg";
+import tavukkanat from "./img/tavukkanatmazidagli.jpg";
+import karisikkebap from "./img/mazidaglispecial.jpg";
 import domateslikebap from "./img/domateslikebap.jpg";
-
 import alinazikkebap from "./img/alinazikkebap.jpg";
 import halepisi from "./img/halepisi.jpg";
 import kilistava from "./img/kilistava.jpg";
 import tavukdurum from "./img/tavukdurum.jpg";
-import adanaurfadurum from "./img/adanaurfadurum.jpg";
-import guveckusbasi from "./img/guveckusbasi.jpg";
-import guveckiymali from "./img/guveckiymali.jpg";
-import izgarakofte from "./img/izgarakofte.jpg";
+import adanaurfadurum from "./img/adanadurummazidagli.jpg";
+import guveckusbasi from "./img/kusbasiguvecmaazidagli.jpg";
+import guveckiymali from "./img/kiymaliguvecmazidagli.jpg";
+import izgarakofte from "./img/izgarakoftemazidagli.jpg";
 import yarimekmekkofte from "./img/yarimekmekkofte.jpg";
-
+import mazidaglispecial from "./img/mazidaglispecial.jpg";
 
 
 const kebabs = [
@@ -50,7 +49,7 @@ const kebabs = [
   { name: "Güveç Kıymalı", weight: "-", price: "350 TL" ,img: guveckiymali },
   { name: "Izgara Köfte", weight: "-", price: "300 TL", img: izgarakofte },
   { name: "Yarım Ekmek Köfte", weight: "-", price: "200 TL", img: yarimekmekkofte },
-  { name: "Mazıdağlı Special", weight: "-", price: "790 TL" }
+  { name: "Mazıdağlı Special", weight: "-", price: "790 TL" , img: mazidaglispecial }
 ];
 
 

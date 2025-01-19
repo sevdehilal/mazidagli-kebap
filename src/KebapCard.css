@@ -31,7 +31,7 @@
   
     .kebap-img {
       width: 120px; /* Daha küçük genişlik */
-      height: 100px !important ; /* Daha küçük yükseklik */
+      height: 120px !important ; /* Daha küçük yükseklik */
       object-fit: cover; /* Görüntüyü kapsayıcıya göre kırparak alanı doldur */
       border-radius: 8px; /* Köşeleri yuvarla */
       overflow: hidden; /* Taşmaları engelle */

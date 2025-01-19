@@ -3,16 +3,19 @@ import { Card, Row, Col, Menu, Drawer, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import "./HomePage.css";
 import { useNavigate } from "react-router-dom";
-
+import kebap from "./img/kebapcesitlerimazidagli.jpg";
+import pide from "./img/pidelahmacuncesitlerimazidagli.jpg";
+import karisiksalata from "./img/karisiksalata.jpg";
+import sutlac from "./img/sutlacmazidagli.jpg";
 const { Meta } = Card;
 
 const categories = [
-  { title: "Döner", img: "https://www.ustadonerci.com/media/products/durum-et-doner_b.png", key: "doner" },
-  { title: "Kebap", img: "https://images.deliveryhero.io/image/fd-tr/Products/66161844.jpg??width=800", key: "kebap" },
-  { title: "Pideler", img: "https://www.ustadonerci.com/media/products/durum-et-doner_b.png", key: "pideler" },
-  { title: "Salatalar", img: "https://www.ustadonerci.com/media/products/durum-et-doner_b.png", key: "salatalar" },
-  { title: "Tatlılar", img: "https://www.ustadonerci.com/media/products/durum-et-doner_b.png", key: "tatlilar" },
-  { title: "Meşrubatlar", img: "https://www.ustadonerci.com/media/products/durum-et-doner_b.png", key: "mesrubatlar" },
+  { title: "Dönerler", img: "https://inbursa.com.tr/wp-content/uploads/2024/12/iskender.webp", key: "doner" },
+  { title: "Kebaplar", img: kebap, key: "kebap" },
+  { title: "Pide & Lahmacun", img: pide , key: "pideler" },
+  { title: "Salatalar", img: karisiksalata, key: "salatalar" },
+  { title: "Tatlılar", img: sutlac, key: "tatlilar" },
+  { title: "Meşrubatlar", img: "ghttps://www.ustadonerci.com/media/products/durum-et-doner_b.pn", key: "mesrubatlar" },
 ];
 
 const HomePage = () => {
@@ -22,10 +25,30 @@ const HomePage = () => {
   const toggleDrawer = () => {
     setDrawerVisible(!drawerVisible);
   };
+
   const handleCardClick = (key) => {
     if (key === "kebap") {
       navigate("/kebap");
     }
+
+    else if (key === "doner") {
+      navigate("/doner");
+    }
+
+    else if (key === "pideler") {
+      navigate("/pideler");
+    }
+    else if (key === "salatalar") {
+      navigate("/salatalar");
+    }
+    else if (key === "tatlilar") {
+      navigate("/tatlilar");
+    }
+
+    else if (key === "mesrubatlar") {
+      navigate("/mesrubatlar");
+    }
+
   };
 
   return (
