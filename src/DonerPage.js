@@ -10,7 +10,7 @@ import aziskender from "./img/iskendermazidagli.jpg";
 import pilavustudoner from "./img/pilavustudoner.jpg";
 import donerdurum from "./img/etdonerdurum.jpg";
 import yarimekmek from "./img/yarimekmek.jpg";
-import tamekmek from "./img/tamekmekarasıetdöner.jpg";
+import tamekmek from "./img/tamekmek.jpg";
 
 const doners = [
     { name: "Pide Döner", weight: "70 gr", price: "200 TL", img: pidedoner },
