@@ -12,18 +12,18 @@ import karisik from "./img/karisikpidemazidagli.jpg";
 import sucukluKasarlı from "./img/sucuklukasarlipidemazidagli.jpg";
 import kavurmali from "./img/kavurmalikasarlipide.jpg";
 import lahmacun from "./img/lahmacunmazidagli.jpg";
-import findikLahmacun from "./img/lahmacunmazidagli.jpg";
+import findikLahmacun from "./img/findiklahmacun.jpg";
 import antepLahmacun from "./img/lahmacunmazidagli.jpg";
 import kasarliLahmacun from "./img/lahmacunmazidagli.jpg";
 
 const pideLahmacunItems = [
   { name: "Karışık Pizza", price: "330 TL"},
-  { name: "Kaşarlı", price: "270 TL", img: kasarli },
-  { name: "Kıymalı", price: "270 TL", img: kiymali },
-  { name: "Kuşbaşılı", price: "320 TL", img: kusbasili },
-  { name: "Karışık", price: "320 TL", img: karisik },
-  { name: "Sucuklu-Kaşarlı", price: "320 TL", img: sucukluKasarlı },
-  { name: "Kavurmalı", price: "350 TL", img: kavurmali },
+  { name: "Kaşarlı Pide", price: "270 TL", img: kasarli },
+  { name: "Kıymalı Pide", price: "270 TL", img: kiymali },
+  { name: "Kuşbaşılı Pide", price: "320 TL", img: kusbasili },
+  { name: "Karışık Pide", price: "320 TL", img: karisik },
+  { name: "Sucuklu-Kaşarlı Pide", price: "320 TL", img: sucukluKasarlı },
+  { name: "Kavurmalı Pide", price: "350 TL", img: kavurmali },
   { name: "Lahmacun (1,5 lahmacun = 175₺)", price: "115 TL", img: lahmacun },
   { name: "Fındık Lahmacun", price: "85 TL", img: findikLahmacun },
   { name: "Antep Lahmacun (soğansız)", price: "125 TL", img: antepLahmacun },

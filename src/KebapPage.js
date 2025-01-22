@@ -44,7 +44,7 @@ const kebabs = [
   { name: "Ali Nazik Kebap", weight: "120 gr", price: "400 TL", img: alinazikkebap },
   { name: "Halep İşi", weight: "120 gr", price: "400 TL", img: halepisi },
   { name: "Kilis Tava", weight: "-", price: "350 TL", img: kilistava },
-  { name: "Tavuk Dürüm", weight: "-", price: "280 TL", img: tavukdurum },
+  { name: "Tavuk Şiş Dürüm", weight: "-", price: "280 TL", img: tavukdurum },
   { name: "Adana / Urfa Dürüm", weight: "-", price: "280 TL", img: adanaurfadurum },
   { name: "Güveç Kuşbaşı", weight: "-", price: "350 TL", img: guveckusbasi },
   { name: "Güveç Kıymalı", weight: "-", price: "350 TL" ,img: guveckiymali },
