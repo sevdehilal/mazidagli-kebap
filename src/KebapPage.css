@@ -24,8 +24,41 @@
     font-weight: bold;
     color: #ff4d4f;
   }
-  
+
   .custom-list-item {
     margin-bottom: 0px !important; /* Boşluğu ayarlayın */
   }
-  
+  /* AppBar */
+.kebap-app-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #dd080b;
+  color: #fff;
+  height: 60px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kebap-header {
+  display: flex;
+  align-items: center; /* Geri butonu ve başlığı yatayda hizalar */
+}
+
+.kebap-back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 8px; /* Buton ile başlık arasında biraz boşluk bırakır */
+  outline: none;
+}
+
+.kebap-back-button:hover {
+  text-decoration: underline;
+}
+
+.kebap-logo {
+  font-size: 20px;
+  font-weight: bold;
+}

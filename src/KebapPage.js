@@ -24,6 +24,7 @@ import guveckiymali from "./img/kiymaliguvecmazidagli.jpg";
 import izgarakofte from "./img/izgarakoftemazidagli.jpg";
 import yarimekmekkofte from "./img/yarimekmekkofte.jpg";
 import mazidaglispecial from "./img/mazidaglispecial.jpg";
+import { useNavigate } from "react-router-dom";
 
 
 const kebabs = [
@@ -54,8 +55,23 @@ const kebabs = [
 
 
 const KebapPage = () => {
+  const navigate = useNavigate();
+
+  const handleBackClick = () => {
+    navigate("/"); // HomePage yönlendirmesi
+  };
   return (
     <div >
+      
+      {/* AppBar */}
+      <div className="kebap-app-bar">
+        <div className="kebap-header">
+          <button className="kebap-back-button" onClick={handleBackClick}>
+            &#8592;
+          </button>
+          <div className="kebap-logo">Kebap Çeşitleri</div>
+        </div>
+      </div>
       
       <List
         grid={{ gutter: 0, column: 1 }}

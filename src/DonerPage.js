@@ -2,7 +2,7 @@ import React from "react";
 import { List } from "antd";
 import "./KebapPage.css";
 import KebapCard from "./KebapCard"; 
-
+import { useNavigate } from "react-router-dom";
 import pidedoner from "./img/pidedoner.jpg";
 import iskender from "./img/iskendermazidagli.jpg";
 import donerporsiyon from "./img/etdonermazidagli.jpg";
@@ -25,8 +25,23 @@ const doners = [
   
 
 const DonerPage = () => {
+  const navigate = useNavigate();
+
+  const handleBackClick = () => {
+    navigate("/"); // HomePage yönlendirmesi
+  };
+
   return (
     <div >
+        {/* AppBar */}
+      <div className="kebap-app-bar">
+        <div className="kebap-header">
+          <button className="kebap-back-button" onClick={handleBackClick}>
+            &#8592;
+          </button>
+          <div className="kebap-logo">Döner Çeşitleri</div>
+        </div>
+      </div>
       
       <List
         grid={{ gutter: 16, column: 1 }}

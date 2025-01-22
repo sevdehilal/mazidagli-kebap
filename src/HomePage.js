@@ -13,9 +13,9 @@ const categories = [
   { title: "Dönerler", img: "https://inbursa.com.tr/wp-content/uploads/2024/12/iskender.webp", key: "doner" },
   { title: "Kebaplar", img: kebap, key: "kebap" },
   { title: "Pide & Lahmacun", img: pide , key: "pideler" },
-  { title: "Salatalar", img: karisiksalata, key: "salatalar" },
+  { title: "Salatalar", img: "https://cf.kizlarsoruyor.com/q9794022/784b56c1-56e8-4fad-8e2c-311c73aa15eb.jpg", key: "salatalar" },
   { title: "Tatlılar", img: sutlac, key: "tatlilar" },
-  { title: "Meşrubatlar", img: "ghttps://www.ustadonerci.com/media/products/durum-et-doner_b.pn", key: "mesrubatlar" },
+  { title: "Meşrubatlar", img: "https://festivalkafe.com/wp-content/uploads/2023/12/1353082343-kopya-1024x576.jpg", key: "mesrubatlar" },
 ];
 
 const HomePage = () => {

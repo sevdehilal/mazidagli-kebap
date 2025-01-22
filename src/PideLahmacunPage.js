@@ -2,7 +2,7 @@ import React from "react";
 import { List } from "antd";
 import "./KebapPage.css";
 import KebapCard from "./KebapCard"; 
-
+import { useNavigate } from "react-router-dom";
 
 
 import kasarli from "./img/kasarlipidemazidagli.jpg";
@@ -31,9 +31,22 @@ const pideLahmacunItems = [
 ];
 
 const PideLahmacunPage = () => {
+    const navigate = useNavigate();
+
+  const handleBackClick = () => {
+    navigate("/"); // HomePage yönlendirmesi
+  };
   return (
     <div className="pide-lahmacun-page">
-      <h1 className="page-title">Pide & Lahmacun Çeşitleri</h1>
+      {/* AppBar */}
+      <div className="kebap-app-bar">
+        <div className="kebap-header">
+          <button className="kebap-back-button" onClick={handleBackClick}>
+            &#8592;
+          </button>
+          <div className="kebap-logo">Pide Lahmacun Çeşitleri</div>
+        </div>
+      </div>
       <List
         grid={{ gutter: 16, column: 1 }} // 2 sütunlu düzen için
         dataSource={pideLahmacunItems}

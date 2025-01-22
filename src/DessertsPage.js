@@ -2,7 +2,7 @@ import React from "react";
 import { List } from "antd";
 import KebapCard from "./KebapCard";
 import "./KebapPage.css";
-
+import { useNavigate } from "react-router-dom";
 // Görsellerinizi uygun şekilde import edin
 import hatayKunefeImg from "./img/hataykunefe.jpg";
 import kaymakliKunefeImg from "./img/kaymaklikunefe.jpg";
@@ -21,9 +21,23 @@ const desserts = [
 ];
 
 const DessertsPage = () => {
+  const navigate = useNavigate();
+
+  const handleBackClick = () => {
+    navigate("/"); // HomePage yönlendirmesi
+  };
+
   return (
     <div className="desserts-page">
-      <h1 className="page-title">Tatlı Çeşitleri</h1>
+      {/* AppBar */}
+      <div className="kebap-app-bar">
+        <div className="kebap-header">
+          <button className="kebap-back-button" onClick={handleBackClick}>
+            &#8592;
+          </button>
+          <div className="kebap-logo">Tatlılar</div>
+        </div>
+      </div>
       <List
         grid={{ gutter: 16, column: 1 }} // Liste görünümü için 1 sütun
         dataSource={desserts}
