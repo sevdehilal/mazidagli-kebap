@@ -1,5 +1,5 @@
 .kebap-page {
-    padding: 20px;
+    padding: 0px;
   }
   
   .kebap-card {
@@ -23,5 +23,9 @@
   .kebap-price {
     font-weight: bold;
     color: #ff4d4f;
+  }
+  
+  .custom-list-item {
+    margin-bottom: 0px !important; /* Boşluğu ayarlayın */
   }
   

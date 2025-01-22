@@ -22,9 +22,7 @@ const HomePage = () => {
   const [drawerVisible, setDrawerVisible] = useState(false);
   const navigate = useNavigate();
 
-  const toggleDrawer = () => {
-    setDrawerVisible(!drawerVisible);
-  };
+  
 
   const handleCardClick = (key) => {
     if (key === "kebap") {
@@ -55,30 +53,13 @@ const HomePage = () => {
     <div className="home-page">
       {/* AppBar */}
       <div className="app-bar">
-        <div className="logo">Mazıdağlı Kebap Lahmacun</div>
-        <Button
-          type="primary"
-          icon={<MenuOutlined />}
-          className="menu-button"
-          onClick={toggleDrawer}
-        />
+        <div className="logo">
+          <div className="logo-title">MAZIDAĞLI</div>
+          <div className="logo-subtitle">Kebap Lahmacun Salonu</div>
+        </div>
       </div>
 
-      {/* Drawer for Small Screens */}
-      <Drawer
-        title="Menü"
-        placement="right"
-        onClose={toggleDrawer}
-        visible={drawerVisible}
-      >
-        <Menu>
-          <Menu.Item key="doner">Döner</Menu.Item>
-          <Menu.Item key="kebap">Kebap</Menu.Item>
-          <Menu.Item key="pideler">Pideler</Menu.Item>
-        </Menu>
-      </Drawer>
 
-      {/* Content */}
       <Row gutter={[16, 16]}>
         {categories.map((category) => (
           <Col xs={12} sm={12} md={6} key={category.key}>

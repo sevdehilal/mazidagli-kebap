@@ -26,7 +26,7 @@ const doners = [
 
 const DonerPage = () => {
   return (
-    <div className="kebap-page">
+    <div >
       
       <List
         grid={{ gutter: 16, column: 1 }}

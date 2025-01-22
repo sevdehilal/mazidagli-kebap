@@ -41,7 +41,7 @@ const KebapCard = ({ img, name, weight, price }) => {
         footer={null} // Alt kısmı kaldır
         onCancel={handleClose} // Modal'ı kapatma
         centered // Ortalanmış modal
-        width="80%" // Modal genişliği
+        width="90%" // Modal genişliği
       >
         {/* Modal içeriği: Resim tam ekran */}
         <img

@@ -15,20 +15,33 @@
   
   .app-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Tüm içerikleri yatayda ortalar */
+    align-items: center; /* Dikeyde ortalama */
+    text-align: center;
     margin-bottom: 10px;
     padding: 0 16px;
-    background-color: #f5222d;
-    color: white;
-    height: 65px;
+    background-color: #d41515;
+    color: rgb(249, 247, 247);
+    height: 95px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
   .logo {
-    font-size: 20px;
-    font-weight: bold;
+    text-align: center; /* İçerikleri ortalar */
   }
+  
+  .logo-title {
+    font-size: 30px; /* Başlık yazı boyutu */
+    font-weight: bold; /* Kalın yazı */
+    margin-bottom: 4px; /* Alt boşluk */
+  }
+  
+  .logo-subtitle {
+    font-size: 20px; /* Alt yazı boyutu */
+    font-weight: normal; /* Normal yazı */
+  }
+  
+
   
   .menu-button {
     border: none;
@@ -65,16 +78,16 @@
     }
   
     .ant-card-meta-title {
-      font-size: 16px; /* Yazı boyutu küçültüldü */
+      font-size: 60px ; /* Yazı boyutu küçültüldü */
     }
   
     .app-bar {
-      height: 50px;
+      height: 75px;
       padding: 0 12px;
     }
   
     .logo {
-      font-size: 16px;
+      font-size: 30px;
     }
   
     .menu-button {

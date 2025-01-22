@@ -55,13 +55,13 @@ const kebabs = [
 
 const KebapPage = () => {
   return (
-    <div className="kebap-page">
+    <div >
       
       <List
-        grid={{ gutter: 16, column: 1 }}
+        grid={{ gutter: 0, column: 1 }}
         dataSource={kebabs}
         renderItem={(item) => (
-          <List.Item>
+          <List.Item className="custom-list-item">
             <KebapCard img={item.img} name={item.name} weight={item.weight} price={item.price} />
           </List.Item>
         )}
