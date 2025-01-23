@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 // Görsellerinizi uygun şekilde import edin
 import tavukluSalataImg from "./img/tavuklusalata.jpg";
-import cobanSalataImg from "./img/cobansalata.jpg";
+import cobanSalataImg from "./img/cobansalatamazidagli.jpg";
 import ezmeSalataImg from "./img/ezme.jpg";
 import karisikSalataImg from "./img/karisiksalata.jpg";
 import yogurtImg from "./img/yogurt.jpg";
