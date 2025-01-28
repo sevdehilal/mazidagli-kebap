@@ -3,7 +3,7 @@ import { Card, Row, Col, Button } from "antd";
 import { useNavigate } from "react-router-dom";
 import kebap from "./img/kebapcesitlerimazidagli.jpg";
 import pide from "./img/pidelahmacuncesitlerimazidagli.jpg";
-import karisiksalata from "./img/karisiksalata.jpg";
+import gununyemek from "./img/gununyemek.jpg";
 import sutlac from "./img/sutlacmazidagli.jpg";
 import { UserOutlined } from '@ant-design/icons';
 import "./HomePage.css";
@@ -52,7 +52,7 @@ const HomePage = () => {
           cover={
             <img
               alt="Günün Yemeği"
-              src="https://via.placeholder.com/800x400?text=Günlük+Menü"
+              src={gununyemek}
             />
           }
           onClick={() => handleCardClick("gunluk-menu-client")}
