@@ -70,7 +70,7 @@
   /* XS ve Small cihazlar için */
   @media (max-width: 576px) {
     .ant-card {
-      margin: 8px 0; /* Kartlar arasında daha küçük boşluk */
+      margin: 2px 0; /* Kartlar arasında daha küçük boşluk */
     }
   
     .ant-card img {
@@ -78,12 +78,13 @@
     }
   
     .ant-card-meta-title {
-      font-size: 60px ; /* Yazı boyutu küçültüldü */
+      font-size: 20px ; /* Yazı boyutu küçültüldü */
     }
   
     .app-bar {
-      height: 75px;
+      height: 65px;
       padding: 0 12px;
+      margin-bottom: 1px;
     }
   
     .logo {
@@ -94,5 +95,3 @@
       font-size: 18px;
     }
   }
-
-  

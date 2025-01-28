@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "mazidagli-kebap"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "mazidagli-kebap-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

@@ -7,6 +7,10 @@ import PideLahmacunPage from "./PideLahmacunPage";
 import SalatalarPage from "./SalatalarPage";
 import DessertsPage from "./DessertsPage";
 import DrinksPage from "./DrinksPage";
+import GunlukMenu from "./GunlukMenu";
+import Login from "./Login";
+import MenuForClient from "./MenuForClient";
+
 
 const App = () => {
   return (
@@ -19,6 +23,10 @@ const App = () => {
         <Route path="/salatalar" element={<SalatalarPage />} />
         <Route path="/tatlilar" element={<DessertsPage />} />
         <Route path="/mesrubatlar" element={<DrinksPage />} />
+        <Route path="/gunluk-menu" element={<GunlukMenu />} />
+        <Route path="/gunluk-menu-client" element={<MenuForClient />} />
+        <Route path="/login" element={<Login/>} />
+        
       </Routes>
     </Router>
   );
