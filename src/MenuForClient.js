@@ -1,13 +1,11 @@
-// MenuForClient.js
-
 import React, { useState, useEffect } from 'react';
-import { List, Card } from 'antd';
+import { List, Card, Row, Col } from 'antd';
 import { fetchMenu } from './firebaseFunctions';
 
 const MenuForClient = () => {
   const [menu, setMenu] = useState([]);
 
-  // Menü verisini başta çekiyoruz
+  // Fetch the menu data initially
   useEffect(() => {
     const getMenuData = async () => {
       const fetchedMenu = await fetchMenu();
@@ -19,15 +17,24 @@ const MenuForClient = () => {
 
   return (
     <div>
-      <h2>Günlük Menü</h2>
+      <h2>Günün Yemeği</h2>
       
-      {/* Menü öğelerini listeliyoruz */}
+      {/* Display menu items */}
       <List
         bordered
         dataSource={menu}
         renderItem={(item) => (
           <List.Item>
-            <Card>{item.name}</Card>
+            <Card style={{ width: '100%' }}>
+              <Row justify="space-between" align="middle">
+                <Col>
+                  <strong>{item.name}</strong> {/* Product name on the left */}
+                </Col>
+                <Col style={{ textAlign: 'right' }}>
+                  <strong>{item.price} ₺</strong> {/* Product price on the right */}
+                </Col>
+              </Row>
+            </Card>
           </List.Item>
         )}
       />

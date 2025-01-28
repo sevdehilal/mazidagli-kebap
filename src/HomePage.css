@@ -15,10 +15,8 @@
   
   .app-bar {
     display: flex;
-    justify-content: center; /* Tüm içerikleri yatayda ortalar */
+    justify-content: space-between; /* Logo ve ikonu arasına mesafe bırak */
     align-items: center; /* Dikeyde ortalama */
-    text-align: center;
-    margin-bottom: 10px;
     padding: 0 16px;
     background-color: #d41515;
     color: rgb(249, 247, 247);
@@ -27,8 +25,15 @@
   }
   
   .logo {
-    text-align: center; /* İçerikleri ortalar */
+    text-align: center; /* Logo metnini ortada hizala */
+    flex-grow: 1; /* Logo kısmının genişlemesini sağlar */
   }
+  
+  .login-icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
   
   .logo-title {
     font-size: 30px; /* Başlık yazı boyutu */
@@ -39,6 +44,9 @@
   .logo-subtitle {
     font-size: 20px; /* Alt yazı boyutu */
     font-weight: normal; /* Normal yazı */
+  }
+  .login-icon {
+    cursor: pointer;
   }
   
 

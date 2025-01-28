@@ -1,12 +1,11 @@
-// GunlukMenu.js
-
 import React, { useState, useEffect } from 'react';
 import { Button, Input, List } from 'antd';
-import { addProductToMenu, removeProductFromMenu, fetchMenu, saveMenu } from './firebaseFunctions';
+import { addProductToMenu, removeProductFromMenu, fetchMenu } from './firebaseFunctions';
 
 const GunlukMenu = () => {
   const [menu, setMenu] = useState([]);
-  const [newProduct, setNewProduct] = useState('');
+  const [newProductName, setNewProductName] = useState('');
+  const [newProductPrice, setNewProductPrice] = useState('');
 
   // Menü verisini başta çekiyoruz
   useEffect(() => {
@@ -20,10 +19,11 @@ const GunlukMenu = () => {
 
   // Ürün ekleme işlemi
   const handleAddProduct = async () => {
-    if (newProduct.trim() === "") return; // Eğer boşsa ekleme işlemini yapma
-    const newProductObject = { name: newProduct }; // Basit bir ürün ekleme
+    if (newProductName.trim() === "" || newProductPrice.trim() === "") return; // Eğer boşsa ekleme işlemini yapma
+    const newProductObject = { name: newProductName, price: newProductPrice }; // Ürün adı ve fiyatını ekliyoruz
     await addProductToMenu(newProductObject); // Yeni ürünü menüye ekliyoruz
-    setNewProduct(''); // Input alanını temizliyoruz
+    setNewProductName(''); // Ürün adını temizliyoruz
+    setNewProductPrice(''); // Ürün fiyatını temizliyoruz
 
     // Menü verisini yeniden alıyoruz
     const updatedMenu = await fetchMenu();
@@ -44,9 +44,15 @@ const GunlukMenu = () => {
       <h2>Günlük Menü Yönetimi</h2>
       
       <Input
-        value={newProduct}
-        onChange={(e) => setNewProduct(e.target.value)}
-        placeholder="Yeni ürün ekleyin"
+        value={newProductName}
+        onChange={(e) => setNewProductName(e.target.value)}
+        placeholder="Yeni ürün adı"
+      />
+      <Input
+        value={newProductPrice}
+        onChange={(e) => setNewProductPrice(e.target.value)}
+        placeholder="Fiyat"
+        type="number"
       />
       <Button onClick={handleAddProduct}>Ürün Ekle</Button>
       
@@ -57,7 +63,7 @@ const GunlukMenu = () => {
           <List.Item
             actions={[<Button onClick={() => handleRemoveProduct(index)}>Sil</Button>]}
           >
-            {item.name}
+            {item.name} - {item.price}₺
           </List.Item>
         )}
       />

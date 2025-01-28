@@ -17,8 +17,8 @@ const categories = [
   { title: "Salatalar", img: "https://cf.kizlarsoruyor.com/q9794022/784b56c1-56e8-4fad-8e2c-311c73aa15eb.jpg", key: "salatalar" },
   { title: "Tatlılar", img: sutlac, key: "tatlilar" },
   { title: "Meşrubatlar", img: "https://festivalkafe.com/wp-content/uploads/2023/12/1353082343-kopya-1024x576.jpg", key: "mesrubatlar" },
-  // Günlük Menü kategorisi
-  { title: "Günlük Menü", img: "https://via.placeholder.com/800x400?text=Günlük+Menü", key: "gunluk-menu-client" },
+  
+  { title: "Günün Yemeği", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkLQyEbxLKN3GKUC9L9ccSXJKMvojoAy-OVUm7J-BpuAyD6FtdCds7KDX_mMH1tPXztY&usqp=CAU", key: "gunluk-menu-client" },
 ];
 
 const HomePage = () => {
@@ -38,9 +38,9 @@ const HomePage = () => {
         <div className="logo">
           <div className="logo-title">MAZIDAĞLI</div>
           <div className="logo-subtitle">Kebap Lahmacun Salonu</div>
-          <div className="login-icon" onClick={handleLoginClick}>
-          <UserOutlined style={{ fontSize: '24px', cursor: 'pointer' }} />
         </div>
+        <div className="login-icon" onClick={handleLoginClick}>
+          <UserOutlined style={{ fontSize: '24px', cursor: 'pointer' }} />
         </div>
       </div>
 
@@ -51,13 +51,13 @@ const HomePage = () => {
           className="daily-menu-card"
           cover={
             <img
-              alt="Günlük Menü"
+              alt="Günün Yemeği"
               src="https://via.placeholder.com/800x400?text=Günlük+Menü"
             />
           }
           onClick={() => handleCardClick("gunluk-menu-client")}
         >
-          <Meta title="Günlük Menü" />
+          <Meta title="Günün Yemeği" />
         </Card>
       </div>
 
