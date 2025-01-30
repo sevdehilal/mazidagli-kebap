@@ -14,7 +14,7 @@ import tavukbiftek from "./img/tavukbiftek.jpg";
 import tavukkanat from "./img/tavukkanatmazidagli.jpg";
 import karisikkebap from "./img/mazidaglispecial.jpg";
 import domateslikebap from "./img/domateslikebap.jpg";
-import alinazikkebap from "./img/alinazikkebap.jpg";
+import alinazikkebap from "./img/alinazikmazidagli.jpg";
 import halepisi from "./img/halepisi.jpg";
 import kilistava from "./img/kilistava.jpg";
 import tavukdurum from "./img/tavukdurum.jpg";

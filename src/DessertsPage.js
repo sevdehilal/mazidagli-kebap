@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import hatayKunefeImg from "./img/hataykunefe.jpg";
 import kaymakliKunefeImg from "./img/kaymaklikunefe.jpg";
 import kadayif from "./img/kadayifmazidagli.jpg";
-import tahinliKabakImg from "./img/kemalpasatatlisi.jpg";
+import tahinliKabakImg from "./img/kemalpasamazidagli.jpg";
 import sutlacImg from "./img/sutlacmazidagli.jpg";
 
 
@@ -16,7 +16,7 @@ const desserts = [
   { name: "Kaymaklı Künefe", price: "150 TL", img: kaymakliKunefeImg },
   { name: "Kadayıf", price: "110 TL",img: kadayif},
   { name: "Kemalpaşa", price: "110 TL", img: tahinliKabakImg },
-  { name: "Sütlaç-Kemalpaşa", price: "110 TL", img: sutlacImg },
+  { name: "Sütlaç", price: "110 TL", img: sutlacImg },
   { name: "Kabak Tatlısı", price: "110 TL", img: "https://i.lezzet.com.tr/images-xxlarge-recipe/kabak_tatlisi-92bdccc7-ea10-44d3-a83e-90a8ed9a9e07.jpg" },
 ];
 
