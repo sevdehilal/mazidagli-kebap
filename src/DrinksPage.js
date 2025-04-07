@@ -20,7 +20,7 @@ import cola2_5LtImg from "./img/cocacola2.5l.jpg";
 
 // List of drinks with their prices, weights, and images
 const drinks = [
-    { name: "Su", price: "15 TL", img: suImg },
+    { name: "Su", price: "20 TL", img: suImg },
     { name: "Ayran (278 ml)", price: "40 TL", img: "https://marketkarsilastir.com/urunler/8690158121089.jpg" },
     { name: "Coca Cola", price: "60 TL", img: cocaColaImg },
     { name: "Limonlu Soda", price: "30 TL", img: limonluSodaImg },

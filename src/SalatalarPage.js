@@ -12,7 +12,7 @@ import karisikSalataImg from "./img/karisiksalata.jpg";
 import yogurtImg from "./img/yogurt.jpg";
 
 const salataItems = [
-  { name: "Tavuklu Salata", price: "330 TL", img: tavukluSalataImg },
+  { name: "Tavuklu Salata", price: "360 TL", img: tavukluSalataImg },
   { name: "Çoban Salata", price: "110 TL", img: cobanSalataImg },
   { name: "Ezme Salata", price: "110 TL", img: ezmeSalataImg },
   { name: "Karışık Salata", price: "110 TL", img: karisikSalataImg },

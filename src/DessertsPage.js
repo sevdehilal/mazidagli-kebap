@@ -12,12 +12,12 @@ import sutlacImg from "./img/sutlacmazidagli.jpg";
 
 
 const desserts = [
-  { name: "Hatay Künefesi", price: "125 TL", img: hatayKunefeImg },
-  { name: "Kaymaklı Künefe", price: "150 TL", img: kaymakliKunefeImg },
-  { name: "Kadayıf", price: "110 TL",img: kadayif},
-  { name: "Kemalpaşa", price: "110 TL", img: tahinliKabakImg },
-  { name: "Sütlaç", price: "110 TL", img: sutlacImg },
-  { name: "Kabak Tatlısı", price: "110 TL", img: "https://i.lezzet.com.tr/images-xxlarge-recipe/kabak_tatlisi-92bdccc7-ea10-44d3-a83e-90a8ed9a9e07.jpg" },
+  { name: "Hatay Künefesi", price: "135 TL", img: hatayKunefeImg },
+  { name: "Kaymaklı Künefe", price: "180 TL", img: kaymakliKunefeImg },
+  { name: "Kadayıf", price: "120 TL",img: kadayif},
+  { name: "Kemalpaşa", price: "120 TL", img: tahinliKabakImg },
+  { name: "Sütlaç", price: "120 TL", img: sutlacImg },
+  { name: "Kabak Tatlısı", price: "120 TL", img: "https://i.lezzet.com.tr/images-xxlarge-recipe/kabak_tatlisi-92bdccc7-ea10-44d3-a83e-90a8ed9a9e07.jpg" },
 ];
 
 const DessertsPage = () => {
