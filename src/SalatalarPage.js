@@ -12,14 +12,15 @@ import karisikSalataImg from "./img/karisiksalata.jpg";
 import yogurtImg from "./img/yogurt.jpg";
 
 const salataItems = [
-  { name: "Tavuklu Salata", price: "360 TL", img: tavukluSalataImg },
-  { name: "Çoban Salata", price: "110 TL", img: cobanSalataImg },
-  { name: "Ezme Salata", price: "110 TL", img: ezmeSalataImg },
+  { name: "Tavuklu Salata", price: "410 TL", img: tavukluSalataImg },
+  { name: "Çoban Salata", price: "130 TL", img: cobanSalataImg },
+  { name: "Ezme Salata", price: "130 TL", img: ezmeSalataImg },
   { name: "Karışık Salata", price: "110 TL", img: karisikSalataImg },
-  { name: "Göbek Salata", price: "110 TL"},
-  { name: "Cacık", price: "100 TL"},
-  { name: "Yoğurt", price: "50 TL", img: yogurtImg },
+  { name: "Göbek Salata", price: "130 TL" },
+  { name: "Cacık", price: "120 TL" },
+  { name: "Yoğurt", price: "70 TL", img: yogurtImg },
 ];
+
 
 const SalatalarPage = () => {
     const navigate = useNavigate();
