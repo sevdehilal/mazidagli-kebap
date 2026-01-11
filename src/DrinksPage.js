@@ -23,17 +23,21 @@ const drinks = [
   { name: "Su", price: "20 TL", img: suImg },
   { name: "Ayran (278 ml)", price: "50 TL", img: "https://marketkarsilastir.com/urunler/8690158121089.jpg" },
   { name: "Küçük Ayran (180 ml)", price: "40 TL", img: "https://migrostoptanstr01.blob.core.windows.net/toptanimgs/11559379.jpg" },
-  { name: "Küçük Şişe Kola", price: "60 TL", img: cocaColaImg },
-  { name: "Meyve Suyu-Fanta", price: "70 TL", img: fantaImg },
-  { name: "Coca Cola - Sprite", price: "70 TL", img: spriteImg },
+  { name: "Küçük Şişe Kola", price: "70 TL", img: cocaColaImg },
+  { name: "Meyve Suyu-Fanta", price: "80 TL", img: fantaImg },
+  { name: "Coca Cola - Sprite", price: "80 TL", img: spriteImg },
   { name: "Soda", price: "30 TL", img: sodaImg },
   { name: "Limonlu Soda", price: "35 TL", img: limonluSodaImg },
-  { name: "1 Litre Cola-Ayran", price: "120 TL", img: litrelikColaAyranImg },
-  { name: "2 Lt. Coca Cola", price: "130 TL", img: cocaCola2LtImg },
+  { name: "1 Litre Cola-Ayran", price: "130 TL", img: litrelikColaAyranImg },
+  { name: "2 Lt. Coca Cola", price: "140 TL", img: cocaCola2LtImg },
   { name: "Şalgam", price: "60 TL", img: salgamImg },
-  { name: "2,5 Litre Cola", price: "150 TL", img: cola2_5LtImg },
-  { name: "Çay (İlk çay ikramdır)", price: "15 TL", img: "https://www.tokatliva.com/image/cache/catalog/AA1/sicaklar/cay-1080x1350.jpg" },
+  {
+    name: "Çay (İlk çay ikramdır)",
+    price: "20 TL",
+    img: "https://www.tokatliva.com/image/cache/catalog/AA1/sicaklar/cay-1080x1350.jpg"
+  }
 ];
+
 
   
 

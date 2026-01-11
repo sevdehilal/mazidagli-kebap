@@ -28,30 +28,36 @@ import { useNavigate } from "react-router-dom";
 
 
 const kebabs = [
-  { name: "Ciğer Şiş", weight: "170 gr", price: "420 TL", img: cigersis },
-  { name: "Beyti Kebap", weight: "155 gr", price: "500 TL", img: beyti },
-  { name: "Patlıcanlı Kebap", weight: "200 gr", price: "530 TL", img: patlicanlikebap },
-  { name: "Urfa Kebap", weight: "120 gr", price: "400 TL", img: urfakebap },
-  { name: "Adana Kebap (Acılı)", weight: "120 gr", price: "400 TL", img: adanakebap },
-  { name: "Kuzu Şiş (Çöp Şiş)", weight: "200 gr", price: "540 TL", img: kuzusis },
-  { name: "Tavuk Şiş", weight: "200 gr", price: "370 TL", img: tavuksis },
-  { name: "Tavuk Pirzola", weight: "220 gr", price: "420 TL", img: tavukpirzola },
-  { name: "Izgara Tavuk Biftek", weight: "180 gr", price: "370 TL", img: tavukbiftek },
-  { name: "Tavuk Kanat (Uç Kanat 390₺)", weight: "-", price: "380 TL", img: tavukkanat },
-  { name: "Karışık Kebap", weight: "-", price: "990 TL", img: karisikkebap },
-  { name: "Domatesli Kebap", weight: "160 gr", price: "500 TL", img: domateslikebap },
-  { name: "Ezmeli Kebap", weight: "120 gr", price: "500 TL", img: "https://static.wixstatic.com/media/c0d8ea_6018f5ee486646a7badad0b5051ba1f4~mv2.jpg/v1/fill/w_480,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c0d8ea_6018f5ee486646a7badad0b5051ba1f4~mv2.jpg" },
-  { name: "Ali Nazik Kebap", weight: "120 gr", price: "500 TL", img: alinazikkebap },
-  { name: "Halep İşi", weight: "120 gr", price: "500 TL", img: halepisi },
-  { name: "Kilis Tava", weight: "-", price: "430 TL", img: kilistava },
+  { name: "Ciğer Şiş", weight: "170 gr", price: "480 TL", img: cigersis },
+  { name: "Beyti Kebap", weight: "155 gr", price: "580 TL", img: beyti },
+  { name: "Patlıcanlı Kebap", weight: "200 gr", price: "600 TL", img: patlicanlikebap },
+  { name: "Urfa Kebap", weight: "120 gr", price: "450 TL", img: urfakebap },
+  { name: "Adana Kebap (Acılı)", weight: "120 gr", price: "450 TL", img: adanakebap },
+  { name: "Kuzu Şiş (Çöp Şiş)", weight: "200 gr", price: "600 TL", img: kuzusis },
+  { name: "Tavuk Şiş", weight: "200 gr", price: "420 TL", img: tavuksis },
+  { name: "Tavuk Pirzola", weight: "220 gr", price: "470 TL", img: tavukpirzola },
+  { name: "Izgara Tavuk Biftek", weight: "180 gr", price: "420 TL", img: tavukbiftek },
+  { name: "Tavuk Kanat (Uç Kanat 390₺)", weight: "-", price: "430 TL", img: tavukkanat },
+  { name: "Karışık Kebap", weight: "-", price: "1100 TL", img: karisikkebap },
+  { name: "Domatesli Kebap", weight: "160 gr", price: "550 TL", img: domateslikebap },
+  {
+    name: "Ezmeli Kebap",
+    weight: "120 gr",
+    price: "550 TL",
+    img: "https://static.wixstatic.com/media/c0d8ea_6018f5ee486646a7badad0b5051ba1f4~mv2.jpg/v1/fill/w_480,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c0d8ea_6018f5ee486646a7badad0b5051ba1f4~mv2.jpg"
+  },
+  { name: "Ali Nazik Kebap", weight: "120 gr", price: "550 TL", img: alinazikkebap },
+  { name: "Halep İşi", weight: "120 gr", price: "550 TL", img: halepisi },
+  { name: "Kilis Tava", weight: "-", price: "500 TL", img: kilistava },
   { name: "Tavuk Şiş Dürüm", weight: "-", price: "340 TL", img: tavukdurum },
-  { name: "Adana / Urfa Dürüm", weight: "-", price: "340 TL", img: adanaurfadurum },
-  { name: "Güveç Kuşbaşı", weight: "-", price: "430 TL", img: guveckusbasi },
-  { name: "Güveç Kıymalı", weight: "-", price: "430 TL", img: guveckiymali },
-  { name: "Izgara Köfte", weight: "-", price: "370 TL", img: izgarakofte },
-  { name: "Yarım Ekmek Köfte", weight: "-", price: "240 TL", img: yarimekmekkofte },
-  { name: "Mazıdağlı Special", weight: "-", price: "990 TL", img: mazidaglispecial }
+  { name: "Adana / Urfa Dürüm", weight: "-", price: "390 TL", img: adanaurfadurum },
+  { name: "Güveç Kuşbaşı", weight: "-", price: "500 TL", img: guveckusbasi },
+  { name: "Güveç Kıymalı", weight: "-", price: "500 TL", img: guveckiymali },
+  { name: "Izgara Köfte", weight: "-", price: "420 TL", img: izgarakofte },
+  { name: "Yarım Ekmek Köfte", weight: "-", price: "270 TL", img: yarimekmekkofte },
+  { name: "Mazıdağlı Special", weight: "-", price: "1100 TL", img: mazidaglispecial }
 ];
+
 
 
 

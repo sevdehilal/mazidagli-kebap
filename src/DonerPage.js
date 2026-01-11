@@ -13,16 +13,17 @@ import yarimekmek from "./img/yarimekmek.jpg";
 import tamekmek from "./img/tamekmek.jpg";
 
 const doners = [
-  
-  { name: "Pide Döner", weight: "70 gr", price: "240 TL", img: pidedoner },
-  { name: "İskender Kebap", weight: "120 gr", price: "430 TL", img: iskender },
-  { name: "Döner Porsiyon", weight: "120 gr", price: "400 TL", img: donerporsiyon },
-  { name: "Az İskender", weight: "90 gr", price: "350 TL", img: aziskender },
-  { name: "Pilavüstü Döner", weight: "120 gr", price: "420 TL", img: pilavustudoner },
-  { name: "Döner Dürüm", weight: "100 gr", price: "340 TL", img: donerdurum },
-  { name: "Yarım Ekmek", weight: "70 gr", price: "240 TL", img: yarimekmek },
-  { name: "Tam Ekmek / Üç Çeyrek", weight: "100 gr", price: "350 TL", img: tamekmek },
+  { name: "Pide Döner", weight: "70 gr", price: "270 TL", img: pidedoner },
+  { name: "İskender Kebap", weight: "120 gr", price: "490 TL", img: iskender },
+  { name: "Döner Porsiyon", weight: "120 gr", price: "450 TL", img: donerporsiyon },
+  { name: "Az İskender", weight: "90 gr", price: "400 TL", img: aziskender },
+  { name: "Pilavüstü Döner", weight: "120 gr", price: "480 TL", img: pilavustudoner },
+  { name: "Döner Dürüm", weight: "100 gr", price: "390 TL", img: donerdurum },
+  { name: "Yarım Ekmek", weight: "70 gr", price: "270 TL", img: yarimekmek },
+  { name: "Tam Ekmek / Üç Çeyrek", weight: "100 gr", price: "400 TL", img: tamekmek }
 ];
+
+
 
   
 

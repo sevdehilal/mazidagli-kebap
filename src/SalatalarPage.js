@@ -12,13 +12,13 @@ import karisikSalataImg from "./img/karisiksalata.jpg";
 import yogurtImg from "./img/yogurt.jpg";
 
 const salataItems = [
-  { name: "Tavuklu Salata", price: "410 TL", img: tavukluSalataImg },
-  { name: "Çoban Salata", price: "130 TL", img: cobanSalataImg },
-  { name: "Ezme Salata", price: "130 TL", img: ezmeSalataImg },
-  { name: "Karışık Salata", price: "110 TL", img: karisikSalataImg },
-  { name: "Göbek Salata", price: "130 TL" },
-  { name: "Cacık", price: "120 TL" },
-  { name: "Yoğurt", price: "70 TL", img: yogurtImg },
+  { name: "Tavuklu Salata", price: "450 TL", img: tavukluSalataImg },
+  { name: "Çoban Salata", price: "140 TL", img: cobanSalataImg },
+  { name: "Ezme Salata", price: "140 TL", img: ezmeSalataImg },
+  { name: "Karışık Salata", price: "140 TL", img: karisikSalataImg },
+  { name: "Göbek Salata", price: "140 TL" },
+  { name: "Cacık", price: "130 TL" },
+  { name: "Yoğurt", price: "70 TL", img: yogurtImg }
 ];
 
 
